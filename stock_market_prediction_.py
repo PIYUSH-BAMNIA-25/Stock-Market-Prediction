@@ -19,8 +19,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from mpl_toolkits.mplot3d import Axes3D
-import plotly.express as px
 from datetime import datetime
 
 from sklearn import svm
@@ -31,7 +29,6 @@ from sklearn.datasets import make_classification
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
-from sklearn.ensemble import RandomForestClassifier
 
 pip install yfinance --upgrade --no-cache-dir
 
